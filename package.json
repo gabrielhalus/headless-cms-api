@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/gabrielhalus/headless-cms-api.git",
   "author": "Gabriel Halus",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
 }
