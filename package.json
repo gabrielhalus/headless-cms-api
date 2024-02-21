@@ -1,0 +1,9 @@
+{
+  "name": "headless-cms-api",
+  "description": "A Node.js-based RESTful API serving as the backend for a headless content management system.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielhalus/headless-cms-api.git",
+  "author": "Gabriel Halus",
+  "license": "MIT"
+}
