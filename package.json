@@ -2,12 +2,13 @@
   "name": "headless-cms-api",
   "description": "A Node.js-based RESTful API serving as the backend for a headless content management system.",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/gabrielhalus/headless-cms-api.git",
   "author": "Gabriel Halus",
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.11.19",
     "ts-node": "^10.9.2",
@@ -15,6 +16,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.18.2"
   }
